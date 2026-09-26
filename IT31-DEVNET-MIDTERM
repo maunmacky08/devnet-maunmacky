@@ -1,0 +1,70 @@
+"""
+Midterm Practical Exam — Pet Adoption Records Manager
+Student: [Maun, Macky S.]
+"""
+
+user = []
+pets = []
+pet_list = ["Jodi", "Nova", "Poseidon"]  # starts empty — the user adds pets as the program runs
+pet_type = ["Dog", "Cat", "Fish"]
+
+def display_menu():
+    # print the menu, return the user's choice
+    print("=== Pet Adoption Records ===")
+    print("1. Add a pet")
+    print("2. View all pets")
+    print("3. Count Available vs Adopted")
+    print("4. Find a pet by name")
+    print("5. Remove a pet by name")
+    print("6. Exit")
+    user = input("Choose an option")
+    print(user)
+    pass
+
+def add_pet(pet_list):
+    # ask for name, animal type, status — build the string, add to the list
+    pet_list = input("Name: ")
+    user = input("Type: ")
+    user =  input("Status: ")
+    pet_list.append(input)
+    pass
+
+def view_pets(pet_list):
+    # loop through and print every pet — handle empty list
+    for v in pet_list:
+        print(v)
+    pass
+
+def count_available_adopted(pet_list):
+    # loop through, count Available vs Adopted, return both
+    
+    if pet_list:
+        print("Available")
+    else:
+        print("Adopted")
+    pass
+
+def find_pet(pet_list):
+    # ask for a name, search the list, print result or "not found"
+    if pet_list:
+        print(pet_list)
+    else:
+        print("Not found.")
+    pass
+
+# BONUS (optional)
+def remove_pet(pet_list):
+    # your code here
+    print(pet_list)
+    print("Select a pet to remove starting from 0(equivalent to 1)")
+    pet_list.pop(input)
+    print(pet_list)
+    pass
+
+def main():
+    running = True
+    while running:
+        choice = display_menu()
+        # use if/elif to call the right function based on choice
+        # set running = False when the user picks Exit
+    
