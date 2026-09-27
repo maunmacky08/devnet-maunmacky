@@ -8,7 +8,8 @@ WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
 [So in this topic of variables and data types, We will learn that in our everyday life we use these concepts withouth even knowing it so first up
-variable what is that?
+variable what is that? basically the one who store values then data type is the type of data in that variable then we have 4 basic known ones
+first is int basically any number then we have float that is a number but with decimal point then string as a text or words and lastly boolean as a simple true or false.
 
 
 ============================================
@@ -45,8 +46,7 @@ print("Is a gamer? "+str(is_gamer))
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[Probably the +str since I forgotten the fact that a variable number cannot work without it]
 
 
 ============================================
