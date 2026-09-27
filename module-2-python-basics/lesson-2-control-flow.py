@@ -1,22 +1,22 @@
 """
 Module 2 — Lesson 2: Control Flow (if / elif / else)
-Student: [your name]
-Date: [date]
+Student: [Macky S. Maun]
+Date: [September 27, 2026]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+[We move to the control flow, where we use conditions to make decisions.]
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- condition:
-- if / elif / else:
-- comparison operator:
-- boolean expression:
+- condition: Do you have it? or Do you not have it? (basically boolean)
+- if / elif / else: Decisions if we have that we will use that elif basically if you don't want it to be messy then IF everything mention was not working we will use else
+- comparison operator: A symbol Greater than less than equal to <, >, ==
+- boolean expression: True or False flow edition
 (add more as needed)
 
 
@@ -27,15 +27,23 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+# --- 
+day = "Sunday" #input what day it is case sensitive by the way
+
+if day == "Saturday":
+    print("Weekend")
+elif day == "Sunday":
+    print("Weekend!")
+else:
+    print("Weekday..?")
+ 
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[Definitely making too much if and else statements when I can just use elif]
 
 
 ============================================
