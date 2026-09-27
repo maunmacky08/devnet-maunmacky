@@ -1,5 +1,5 @@
 """
-Module 2 — Lesson 3: Loops & Lists
+Module 2 — Lesson 4: Functions
 Student: [Macky S. Maun]
 Date: [September 27, 2026]
 
@@ -7,19 +7,15 @@ Date: [September 27, 2026]
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[Loops and list is where you store multiple items in one place then repeat actions via loops.]
+[Basically a function in code is the one working to perform a task.]
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- list: Collection of things in one variable
-- for loop: Prints it in a order of list
-- while loop: If code is true it will repeat till false
-- index: Position of the items starting with 0 (0 is basically 1 then 1 is 2 etc.)
-- iteration: repeat of loop
-(add more as needed)
-
+- Function: The code that is used to perform the task needed or given to it
+- Parameter: The value that the function can receive
+- Return: Sends result back to the function
 
 ============================================
 MY OWN EXAMPLE(S)
@@ -28,21 +24,21 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- 
-games = ["Arknights Endfield", "Honkai Star Rail", "Zenless Zone Zero"] 
-for game in games: 
-    print(game)
-
-
+def greeter(name):
+    return "Yo " + name
+message = greeter("Macky")
+print(message)
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[Definitely indentation since I was having error with my code without it]
+[Getting confused with the function and the parameter]
 
 
+"""
+"""""
 ============================================
-HOW THIS CONNECTS TO SOMETHING ELSE
+Question: ?
 ============================================
-[optional]
+[When do I really use a function? and can function have more than one parameter?]
 """
