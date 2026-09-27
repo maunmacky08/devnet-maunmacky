@@ -1,7 +1,7 @@
 """
 Module 2 — Activity: File Sorting with os and shutil
-Student: [your name]
-Date: [date]
+Student: [Macky S. Maun]
+Date: [September 27, 2026]
 
 ============================================
 WHAT DID YOU BUILD? (explain in your own words)
@@ -14,10 +14,10 @@ sort the files? e.g. by extension, by name, by date, etc.]
 ============================================
 KEY VOCABULARY
 ============================================
-- os module:
-- shutil module:
-- file path:
-- directory:
+- os module: to work with files and folders
+- shutil module: used to copy or move files and folders
+- file path: location of files or folders
+- directory: The folder where files are stored in
 (add more as needed)
 
 
