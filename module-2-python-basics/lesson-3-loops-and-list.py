@@ -38,8 +38,7 @@ for game in games:
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[Definitely indentation since I was having error with my code without it]
 
 
 ============================================
