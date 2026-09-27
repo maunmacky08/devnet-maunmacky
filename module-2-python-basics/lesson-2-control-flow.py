@@ -7,7 +7,7 @@ Date: [September 27, 2026]
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[We move to the control flow]
+[We move to the control flow, where we use conditions to make decisions.]
 
 
 ============================================
