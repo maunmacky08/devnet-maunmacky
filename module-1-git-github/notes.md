@@ -13,12 +13,12 @@
 
 ## Key vocabulary (in your own words)
 
-- repository:
-- commit:
-- branch:
-- push / pull:
-- pull request:
-- merge conflict:
+- repository: [The one responsible to hold a link]
+- commit: [When you wanna save things]
+- branch: [A workspace to work individually and not mess up the main]
+- push / pull: [We do push inorder to pull request while pull is for us to get the repo]
+- pull request: [The one who has an authority whether to accept the pull request or not]
+- merge conflict: [Basically collaborators have this common problem they try to change something in the same line but different branches]
 
 ---
 
