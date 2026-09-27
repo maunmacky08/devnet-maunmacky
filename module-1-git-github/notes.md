@@ -1,13 +1,13 @@
 # Module 1 — Git & GitHub
 
-**Student:** [your name]
-**Date:** [date]
+**Student:** [Macky S. Maun]
+**Date:** [September 27]
 
 ---
 
 ## What is Git? What is GitHub? (explain like you're teaching a friend who's never used either)
 
-[Write your own explanation here. What problem does Git actually solve? How is GitHub different from Git itself?]
+[So Git is for instance think about a camera that camera takes photo and then here is when Github comes in say that you wanna post that photo so you go to a social media to post that photo that's basically the nutshell of git and github, git is the tool github is the website.]
 
 ---
 
